@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 600px;
+    height: 600px;
+}
+
+.Title {
+    width: 600px;
+    border-radius: 10px;
+    padding-top: 30px;
+    text-align: center;
+    height: 60px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    margin-bottom: 30px;
+}
+
+.Title h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+table {
+    /* width: 100%; */
+    max-width: 550px;
+}
+
+#myTable {
+    width: 100%;
+    height: auto; /* Set the height to auto */
+    border-collapse: collapse;
+    border-radius: 5px;
+    position: relative;
+    left: 30px;
+}
+
+#myTable th, #myTable td {
+    border: 2px solid #080808;
+    padding: 8px;
+    text-align: left;
+    word-break: break-all; /* Break long words */
+}
+
+.url_bookmark {
+    max-width: 100px; /* Set a maximum width for the URL cell */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Show ellipsis for overflow text */
+    white-space: nowrap; /* Prevent wrapping */
+}
+.titles{
+    max-width: 100px;
+}
+.sr{
+    width: 32px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.manage{
+    display: flex;
+    /* justify-content: space-around; */
+}

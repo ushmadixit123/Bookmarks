@@ -1,0 +1,10 @@
+{
+    "name":"Add Bookmarks",
+    "version":"1.0.0.0",
+    "manifest_version":3,
+    "description":"Add bookmarks to ypou extension",
+    "permissions":["bookmarks"],
+    "action":{
+        "default_popup" : "bookmarksDashboard.html"
+    }
+}
